@@ -1,23 +1,25 @@
 body {
-    background-color: #00bfff ;
+    background-color: #99abb1 ;
 
 }
 h1 {
    text-align: center;
    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-   
+   color: #e5e0e0;
 }
 #description {
     text-align: center;
    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 25px;
 }
 
 #survey-form {
     text-align: center;
-    width: 300px;
-    height: 100%;
+    width: 500px;
+    height: 700px;
     margin: auto;
-    background-color:red;
+    background-color:#e5e0e0;
+    padding: 10px;
 
 }
 #name-label{
@@ -26,12 +28,16 @@ h1 {
 }
 #name{
     height: 25px;
-    width: 200px;
+    width: 350px;
     border-radius: 3px;
+    clear: both;
     float: left;
+    border-radius: 4px;
+    
 }
 #name:focus{
-    width: 400px;
+    background-color: grey;
+
 }
 #email-label{
     clear: left;
@@ -40,10 +46,16 @@ h1 {
 }
 #email{
     height: 25px;
-    width: 200px;
+    width: 350px;
     border-radius: 3px;
     clear: left;
     float: left;
+    border-radius: 4px;
+    
+}
+#email:focus{
+    background-color: grey;
+
 }
 #number-label{
     clear: left;
@@ -52,15 +64,20 @@ h1 {
 }
 #number{
     height: 25px;
-    width: 200px;
+    width: 350px;
     border-radius: 3px;
     clear: left;
     float: left;
+    border-radius: 4px;
+}
+#number:focus{
+    background-color: grey;
 }
 #dropdown{
     clear: left;
     float: left;
     margin: 20px 250px 15px 0px;
+    width: 25em;
 }
 .genderdiv {
     text-align: left;
@@ -73,6 +90,7 @@ h1 {
 }
 .cclass {
         margin: 0px 25px 5px 0px;
+        width: 2em;
 }
 .checkboxclass input[type=checkbox] {
     float: left;
@@ -80,8 +98,8 @@ h1 {
     margin: 0px 25px 5px 0px;
 }
 .textclass {
-    height: 50px;
-    width: 200px;
+    height: 100px;
+    width: 300px;
     clear: left;
     float: left;
     margin: 25px 250px 15px 0px;
@@ -90,4 +108,8 @@ h1 {
     clear: left;
     float: left;
     margin: 20px 250px 15px 0px;
+    width: 150px;
+}
+.gender{
+    width: 2em;
 }
