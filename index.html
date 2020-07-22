@@ -7,14 +7,14 @@
 </head>
 <body>
     <h1 id="title">Survey</h1>
-    <p id="descreption">That's a survey form for Microverse and we will be so happy if you take it.</p>
+    <p id="description">That's a survey form for Microverse and we will be so happy if you take it.</p>
     <form id="survey-form">
-        <label for = "name">Name</label>
-        <input type = "text" id="name">  
-        <label for= "email">Email</label>
-        <input type = "email" id="email" required>
-        <label for= "number">age</label>
-        <input type = "numer" id="number" max="150" min="7">
+        <label id = "name-label" for = "name">Name</label>
+        <input  placeholder = "your name" type = "text" id = "name" required>  
+        <label id = "email-label" for= "email">Email</label>
+        <input placeholder = "your email" type = "email" id="email" required>
+        <label id = "number-label" for= "number">age</label>
+        <input placeholder = "your age" type = "number" id="number" max="150" min="7" required>
         <select name="Social Media" id="dropdown">
             <option value="facebook">facebook</option>
             <option value="Twiter">Twiter</option>
@@ -27,10 +27,15 @@
         <input type="radio" name = "gender" value="female"> Female
 
         <p>Smart Phones you prefer</p>
-        <input type="checkbox" name="phone" id="phone"> Iphone
-        <input type="checkbox" name="phone" id="phone"> Samsung
-        <input type="checkbox" name="phone" id="phone"> Oppo
-        <input type="checkbox" name="phone" id="phone"> Infinix
+        <input value = "Iphone" type="checkbox" name="phone" id="phone"> Iphone
+        <input value = "Samsung" type="checkbox" name="phone" id="phone"> Samsung
+        <input value = "Oppo" type="checkbox" name="phone" id="phone"> Oppo
+        <input value = "Infinix" type="checkbox" name="phone" id="phone"> Infinix
+
+        <textarea placeholder = "More comments"></textarea>
+
+        <input type = "submit" id = "submit"></input>
         </form>
 </body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </html>
