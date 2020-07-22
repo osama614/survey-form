@@ -1,0 +1,59 @@
+body {
+    background-color: #00bfff ;
+
+}
+h1 {
+   text-align: center;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+}
+#description {
+    text-align: center;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#survey-form {
+    text-align: center;
+    width: 300px;
+
+}
+#name-label{
+    float: left;
+}
+#name{
+    height: 25px;
+    width: 200px;
+    border-radius: 3px;
+    float: left;
+}
+#name:focus{
+    width: 400px;
+}
+#email-label{
+    clear: left;
+    float: left;
+}
+#email{
+    height: 25px;
+    width: 200px;
+    border-radius: 3px;
+    clear: left;
+    float: left;
+}
+#number-label{
+    clear: left;
+    float: left;
+}
+#number{
+    height: 25px;
+    width: 200px;
+    border-radius: 3px;
+    clear: left;
+    float: left;
+}
+#dropdown{
+    clear: left;
+    float: left;
+}
+
+
