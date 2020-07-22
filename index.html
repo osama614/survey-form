@@ -23,19 +23,22 @@
             <option value="Youtube">Youtube</option>
         </select>
         
-        <p>gender</p>
-
-
-        <input type="radio" name = "gender" value="male"> Male<br>
-        <input type="radio" name = "gender" value="female"> Female<br>
-
+        <div class="genderdiv">
+        <p class = "p2">Gender</p>
+        
+        <label id= "gender1">Male</label>
+        <input class = "gender" type="radio" name = "gender" value="male"> 
+        <label id= "gender">Female</label>
+        <input class = "gender2" type="radio" name = "gender" value="female">
+        </div>
+        <div class="checkboxclass">       
         <p>Smart Phones you prefer</p>
-        <input value = "Iphone" type="checkbox" name="phone" id="phone"> Iphone<br>
-        <input value = "Samsung" type="checkbox" name="phone" id="phone"> Samsung<br>
-        <input value = "Oppo" type="checkbox" name="phone" id="phone"> Oppo<br>
-        <input value = "Infinix" type="checkbox" name="phone" id="phone"> Infinix<br>
-
-        <textarea placeholder = "More comments"></textarea><br>
+        <input value = "Iphone" type="checkbox" name="phone" id="phone"> <label class="cclass">Iphone</label><br>
+        <input value = "Samsung" type="checkbox" name="phone" id="phone"> <label class="cclass">Samsung</label><br>
+        <input value = "Oppo" type="checkbox" name="phone" id="phone"> <label class="cclass">Oppo</label><br>
+        <input value = "Infinix" type="checkbox" name="phone" id="phone"> <label class="cclass">Infinix</label><br>
+        </div>
+        <textarea class="textclass" placeholder = "More comments"></textarea><br>
 
         <input type = "submit" id = "submit"></input><br>
         </form>

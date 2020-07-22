@@ -15,10 +15,14 @@ h1 {
 #survey-form {
     text-align: center;
     width: 300px;
+    height: 100%;
+    margin: auto;
+    background-color:red;
 
 }
 #name-label{
     float: left;
+    margin: 20px 250px 15px 0px; 
 }
 #name{
     height: 25px;
@@ -32,6 +36,7 @@ h1 {
 #email-label{
     clear: left;
     float: left;
+    margin: 20px 250px 15px 0px;
 }
 #email{
     height: 25px;
@@ -43,6 +48,7 @@ h1 {
 #number-label{
     clear: left;
     float: left;
+    margin: 20px 250px 15px 0px;
 }
 #number{
     height: 25px;
@@ -54,6 +60,34 @@ h1 {
 #dropdown{
     clear: left;
     float: left;
+    margin: 20px 250px 15px 0px;
 }
-
-
+.genderdiv {
+    text-align: left;
+    clear: left;
+    float: left;
+}
+.checkboxclass {
+    clear: left;
+    float: left;
+}
+.cclass {
+        margin: 0px 25px 5px 0px;
+}
+.checkboxclass input[type=checkbox] {
+    float: left;
+    clear: left;
+    margin: 0px 25px 5px 0px;
+}
+.textclass {
+    height: 50px;
+    width: 200px;
+    clear: left;
+    float: left;
+    margin: 25px 250px 15px 0px;
+}
+#submit {
+    clear: left;
+    float: left;
+    margin: 20px 250px 15px 0px;
+}
